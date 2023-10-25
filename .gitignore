@@ -1,0 +1,32 @@
+# Exclua arquivos gerados pela build, mas não exclua .dll
+/bin/
+/obj/
+/publish/
+/publish-single/
+/Debug/
+/Release/
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Dependências do NuGet
+/packages/
+
+# Arquivos de log e crash dumps
+/logs/
+*.log
+*.log.html
+*.log.json
+*.dmp
+
+# Arquivos temporários
+Thumbs.db
+Desktop.ini
+
+# Arquivos de cache
+.vscode-test/
+npm-debug.log
